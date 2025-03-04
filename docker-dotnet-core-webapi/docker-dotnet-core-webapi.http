@@ -1,0 +1,6 @@
+@docker_dotnet_core_webapi_HostAddress = http://localhost:5002
+
+GET {{docker_dotnet_core_webapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
